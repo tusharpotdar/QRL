@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Open URL using QRL",
+  "description": "Scan QR Code to copy URL",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "QRL.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
